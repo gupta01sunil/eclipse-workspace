@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;automationFramework.FirstTestCase.java&apos; to &apos;Mamacita.java&apos;&#x0D;&#x0A;- Original project: &apos;OnlineKitchenTask&apos;&#x0D;&#x0A;- Original element: &apos;automationFramework.FirstTestCase.java&apos;&#x0D;&#x0A;- Renamed element: &apos;automationFramework.Mamacita.java&apos;" description="Rename compilation unit &apos;FirstTestCase.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;automationFramework{FirstTestCase.java" name="Mamacita.java" references="false" stamp="1578221866929" version="1.0"/>
+</session>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="285575" started-at="2020-05-17T11:43:24Z" finished-at="2020-05-17T11:48:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="285575" started-at="2020-05-17T11:43:24Z" finished-at="2020-05-17T11:48:09Z">
+      <class name="walletHubTestTasks.TestTasks">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:walletHubTestTasks.TestTasks@548a9f61]" name="beforeTest" is-config="true" duration-ms="6174" started-at="2020-05-17T11:43:24Z" finished-at="2020-05-17T11:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Scenario1()[pri:0, instance:walletHubTestTasks.TestTasks@548a9f61]" name="Scenario1" duration-ms="124224" started-at="2020-05-17T11:43:30Z" finished-at="2020-05-17T11:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method status="PASS" signature="Scenario2()[pri:0, instance:walletHubTestTasks.TestTasks@548a9f61]" name="Scenario2" duration-ms="150516" started-at="2020-05-17T11:45:34Z" finished-at="2020-05-17T11:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:walletHubTestTasks.TestTasks@548a9f61]" name="afterTest" is-config="true" duration-ms="4625" started-at="2020-05-17T11:48:05Z" finished-at="2020-05-17T11:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- walletHubTestTasks.TestTasks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

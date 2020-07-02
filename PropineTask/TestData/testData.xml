@@ -1,0 +1,45 @@
+<TestData>
+<TestCase Title="Scenario1">
+	<PropineUrl>https://vast-dawn-73245.herokuapp.com/</PropineUrl>
+	<DateFormats>ddseparatorMMMMseparatoryyyy,ddseparatorMMMMseparatoryy,ddseparatorMMMseparatoryyyy,ddseparatorMMMseparatoryy,ddseparatorMMseparatoryyyy,ddseparatorMMseparatoryy,MMMMseparatorddseparatoryyyy,MMMMseparatorddseparatoryy,MMMseparatorddseparatoryyyy,MMMseparatorddseparatoryy,MMseparatorddseparatoryyyy,MMseparatorddseparatoryy</DateFormats>
+	<Separators>-separator separator/</Separators>
+	<Validdate>2020-06-28</Validdate>
+	<Invaliddate00>2020-06-00</Invaliddate00>
+	<Invaliddate32>2020-06-32</Invaliddate32>
+	<ExpectedResult>Sun Jun 28 2020</ExpectedResult>
+	<ExpectedResultForInvalid>Invalid date</ExpectedResultForInvalid>
+</TestCase>
+<TestCase Title="Scenario2">
+	<PropineUrl>https://vast-dawn-73245.herokuapp.com/</PropineUrl>
+	<DateFormats>ddseparatorMMMMseparatoryyyy,ddseparatorMMMMseparatoryy,ddseparatorMMMseparatoryyyy,ddseparatorMMMseparatoryy,ddseparatorMMseparatoryyyy,ddseparatorMMseparatoryy,MMMMseparatorddseparatoryyyy,MMMMseparatorddseparatoryy,MMMseparatorddseparatoryyyy,MMMseparatorddseparatoryy,MMseparatorddseparatoryyyy,MMseparatorddseparatoryy</DateFormats>
+	<Separators>`separator~separator!separator@separator#separator$separator%separator^separator&#38;separator*separator(separator)separator_separator+separator=separator[separator]separator{separator}separator\separator|separator;separator:separator&#39;&#39;separator&#34;separator,separator.separator&lt;separator&gt;separator?</Separators>
+	<ValidDate>2020-06-28</ValidDate>
+	<ExpectedResult>Invalid date</ExpectedResult>
+</TestCase>
+<TestCase Title="Scenario3">
+	<PropineUrl>https://vast-dawn-73245.herokuapp.com/</PropineUrl>
+	<DateFormats>ddseparatorMMMM,ddseparatorMMM,ddseparatorMM,ddseparatorM</DateFormats>
+	<Separators>`separator~separator!separator@separator#separator$separator%separator^separator&#38;separator*separator(separator)separator_separator+separator=separator[separator]separator{separator}separator\separator|separator;separator:separator&#39;&#39;separator&#34;separator,separator.separator&lt;separator&gt;separator?separator separator/separator-</Separators>
+	<ValidDate>2020-06-28</ValidDate>
+	<ExpectedResult>Invalid date</ExpectedResult>
+</TestCase>
+<TestCase Title="Scenario4">
+	<PropineUrl>https://vast-dawn-73245.herokuapp.com/</PropineUrl>
+	<DateFormats>MMMMseparatoryyyy,MMMMseparatoryy,MMMMseparatorY,MMMseparatoryyyy,MMMseparatoryy,MMMseparatorY,MMseparatoryyyy,MMseparatoryy,MMseparatorY</DateFormats>
+	<Separators>`separator~separator!separator@separator#separator$separator%separator^separator&#38;separator*separator(separator)separator_separator+separator=separator[separator]separator{separator}separator\separator|separator;separator:separator&#39;&#39;separator&#34;separator,separator.separator&lt;separator&gt;separator?separator separator/separator-</Separators>
+	<ValidDate>2020-06-28</ValidDate>
+	<ExpectedResult>Invalid date</ExpectedResult>
+</TestCase>
+<TestCase Title="Scenario5">
+	<PropineUrl>https://vast-dawn-73245.herokuapp.com/</PropineUrl>
+	<DateFormats>ddseparatorMMMMseparatoryyyy,ddseparatorMMMMseparatoryy,ddseparatorMMMseparatoryyyy,ddseparatorMMMseparatoryy,ddseparatorMMseparatoryyyy,ddseparatorMMseparatoryy,MMMMseparatorddseparatoryyyy,MMMMseparatorddseparatoryy,MMMseparatorddseparatoryyyy,MMMseparatorddseparatoryy,MMseparatorddseparatoryyyy,MMseparatorddseparatoryy</DateFormats>
+	<Separators>`separator~separator!separator@separator#separator$separator%separator^separator&#38;separator*separator(separator)separator_separator+separator=separator[separator]separator{separator}separator\separator|separator;separator:separator&#39;&#39;separator&#34;separator,separator.separator&lt;separator&gt;separator?separator separator/separator-</Separators>
+	<ValidDate>2020-06-28</ValidDate>
+	<ShippingMessage>The expected Shipping Date is as follows</ShippingMessage>
+	<InValiddateFormats>MMMMseparatoryyyy,MMMMseparatoryy,MMMMseparatorY,MMMseparatoryyyy,MMMseparatoryy,MMMseparatorY,MMseparatoryyyy,MMseparatoryy,MMseparatorY</InValiddateFormats>
+	<InvalidDate>Becember-2020</InvalidDate>
+	<ExpectedResult>Invalid date</ExpectedResult>
+	<InvalidFormats>dd,MMMM,MMM,MM,yyyy,yy</InvalidFormats>
+	<InvalidFormatsDate>2020-01-10</InvalidFormatsDate>
+</TestCase>
+</TestData>

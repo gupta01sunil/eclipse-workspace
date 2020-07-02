@@ -1,0 +1,17 @@
+<TestData>
+<TestCase Title="Scenario1">
+	<FBUrl>https://www.facebook.com</FBUrl>
+	<UserName>test.wallethubfc@gmail.com</UserName>
+	<Password>Password1@</Password>
+	<Post>Hello World</Post>
+</TestCase>
+<TestCase Title="Scenario2">
+	<WalletHubUrl>http://wallethub.com/profile/test_insurance_company/</WalletHubUrl>
+	<UserName>test.wallethubfc@gmail.com</UserName>
+	<Password>Password1@</Password>
+	<ReviewMessage>This is part of WalletHub testing task we are creating a review comment's for one of the Product.This is been validated with the selenium.", "Health Insurance","Your review has been posted.</ReviewMessage>
+	<ProfileUrl>https://wallethub.com/profile/16593927i</ProfileUrl>
+	<ReviewerName>Test FC</ReviewerName>
+	<ReviewRating>4</ReviewRating>
+</TestCase>
+</TestData>
